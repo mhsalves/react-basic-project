@@ -1,0 +1,36 @@
+{
+  "name": "react-basic-project",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Matheus Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhsalves/react-basic-project/issues"
+  },
+  "homepage": "https://github.com/mhsalves/react-basic-project#readme",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
