@@ -1,0 +1,13 @@
+.Counter-container {
+    margin: 0 auto;
+}
+
+.Counter-heading {
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+
+.Counter-button {
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
