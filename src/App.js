@@ -4,6 +4,7 @@ import './App.css';
 
 import Section from './Section';
 import Counter from './Counter';
+import Select from './Select';
 
 function App() {
   return (
@@ -24,6 +25,12 @@ function App() {
       </header>
       <Section color="#7FFFD4">
         Olá Mundo !
+      </Section>
+      <Section color="#FFFFFF">
+        <Select
+          placeholder="Selecione uma opção"
+          listItems={['PS3', 'Xbox 360', 'Nintendo Wii', 'PS4', 'Xbox One', 'Nintendo Switch']}
+        />
       </Section>
       <Section color="lightblue">
         <Counter />
