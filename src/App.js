@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Section from './Section';
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Section color="#7FFFD4">
+        Olá Mundo !
+      </Section>
     </div>
   );
 }
