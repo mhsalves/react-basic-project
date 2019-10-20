@@ -1,0 +1,46 @@
+.Select-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 2px solid #3d3d3d;
+    border-radius: 0.5rem;
+    padding: 0.825rem;
+}
+
+.Select-title {
+    margin: 0;
+    flex-basis: 100%;
+
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.Select-menu {
+    margin: 0;
+    margin-top: 0.5rem;
+    padding: 0;
+    flex-basis: 100%;
+    border-top: 1px solid #ededed;
+    text-align: left;
+
+    list-style: none;
+}
+
+.Select-menu.hide {
+    display: none;
+}
+
+.Select-menuitem {
+    font-size: 1.0rem;
+    line-height: 1.333rem;
+    font-weight: 400;
+
+    padding: 0.5rem 0;
+    border-bottom: 0.025rem solid #ededed;
+
+    cursor: pointer;
+}
