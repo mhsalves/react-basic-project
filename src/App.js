@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Section from './Section';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </header>
       <Section color="#7FFFD4">
         Olá Mundo !
+      </Section>
+      <Section color="lightblue">
+        <Counter />
       </Section>
     </div>
   );
